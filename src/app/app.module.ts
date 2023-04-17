@@ -11,6 +11,11 @@ import { CardsComponent } from './cards/cards.component';
 import { CardComponent } from './card/card.component';
 import { CardDeckComponent } from './card-deck/card-deck.component';
 import { BackgroundImageComponent } from './background-image/background-image.component';
+import { DecksPageComponent } from './decks-page/decks-page.component';
+import { CreatedDeckComponent } from './created-deck/created-deck.component';
+import { CardFilterComponent } from './card-filter/card-filter.component';
+import { DecksPageOptionsComponent } from './decks-page-options/decks-page-options.component';
+import { DecksComponent } from './decks/decks.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { BackgroundImageComponent } from './background-image/background-image.co
     CardsComponent,
     CardComponent,
     CardDeckComponent,
-    BackgroundImageComponent
+    BackgroundImageComponent,
+    DecksPageComponent,
+    CreatedDeckComponent,
+    CardFilterComponent,
+    DecksPageOptionsComponent,
+    DecksComponent,
   ],
   imports: [
     BrowserModule,
